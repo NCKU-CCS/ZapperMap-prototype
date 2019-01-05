@@ -2,17 +2,10 @@
 
 ## Setup
 
-### Virtualenv
+### Install Dependency
 
-```
-$: pyvenv venv
-$: source venv/bin/activate
-```
-
-### Package
-
-```
-$: pip install -r requirements.txt
+```sh
+$: pipenv install
 ```
 
 ### Postgis

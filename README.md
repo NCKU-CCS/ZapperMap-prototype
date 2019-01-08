@@ -1,26 +1,13 @@
-# zapper-web
+# 物聯網蚊媒地圖
 
-## Setup
-
-### Install Dependency
+## Usage
 
 ```sh
-$: pipenv install
+python3 -m http.server
 ```
 
-### Postgis
+* Open your browser and go to http://localhost:8000
 
-macOS
 
-```
-$: brew install postgis
-```
-
-createuser & createdb
-
-```
-$: createdb zapper
-$: createuser -P -s -e zapper_user
-$: Enter password for new role: zapper_secret
-$: Enter it again: zapper_secret
-```
+## License
+MIT @theMosquitoMan team
